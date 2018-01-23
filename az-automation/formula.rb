@@ -7,7 +7,7 @@ class AzAutomation < Formula
     url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}_osx"
     sha256 ""
   elsif OS.linux?
-    url "https://github.com/cloudfoundry/bosh-bootloader/releases/download/#{version}/az-automation-#{version}_linux_x86-64"
+    url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}_linux_x86-64"
     sha256 ""
   end
 
