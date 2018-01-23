@@ -5,10 +5,7 @@ class Leftovers < Formula
 
   if OS.mac?
     url "https://github.com/genevievelesperance/leftovers-cli/releases/download/#{version}/leftovers-cli-#{version}_osx"
-    sha256 ""
-  elsif OS.linux?
-    url "https://github.com/genevievelesperance/leftovers-cli/releases/download/#{version}/leftovers-cli-#{version}_linux_x86-64"
-    sha256 ""
+    sha256 "0ccf5fc7a6f6f4dcc98d37b3cdb1e4cf723f2d84ced53161b67d1731f5a9721e"
   end
 
   depends_on :arch => :x86_64
@@ -17,8 +14,6 @@ class Leftovers < Formula
     binary_name = "leftovers"
     if OS.mac?
       bin.install "leftovers-cli-#{version}_osx" => binary_name
-    elsif OS.linux?
-      bin.install "leftovers-cli-#{version}_linux_x86-64" => binary_name
     end
   end
 
