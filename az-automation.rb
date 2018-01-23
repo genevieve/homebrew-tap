@@ -5,10 +5,7 @@ class AzAutomation < Formula
 
   if OS.mac?
     url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}_osx"
-    sha256 ""
-  elsif OS.linux?
-    url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}_linux_x86-64"
-    sha256 ""
+    sha256 "29c2781843186d05f35dc37c0a104354f486c74346b497cb2f453e862c7db0f2"
   end
 
   depends_on :arch => :x86_64
@@ -18,8 +15,6 @@ class AzAutomation < Formula
     binary_name = "az-automation"
     if OS.mac?
       bin.install "az-automation-#{version}_osx" => binary_name
-    elsif OS.linux?
-      bin.install "az-automation-#{version}_linux_x86-64" => binary_name
     end
   end
 
