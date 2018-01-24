@@ -1,13 +1,11 @@
-# genevievelesperance homebrew tap
+# homebrew tap
 
+## az-automation or leftovers
 
-## az-automation
-
-This is the repository for the az-automation homebrew package.
-
-To install:
+Things you can install:
 
 ```
 brew tap genevievelesperance/tap
 brew install az-automation
+brew install leftovers
 ```
