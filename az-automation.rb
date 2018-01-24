@@ -1,14 +1,14 @@
 class AzAutomation < Formula
   desc "Command line utility for creating an Azure Service Principal."
   homepage "https://github.com/genevievelesperance/az-automation"
-  version "v0.1.0"
+  version "v0.2.0"
 
   if OS.mac?
     url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}-darwin-amd64"
-    sha256 "4a2fa6c87dda89390af582100137d683b98f42240d766727c33e51e3bf5ead74"
+    sha256 "ed9500e522cfb0c66bd84f8d496491913d6a161340af0a76884219645026f0de"
   elsif OS.linux?
     url "https://github.com/genevievelesperance/az-automation/releases/download/#{version}/az-automation-#{version}-linux-amd64"
-    sha256 "6d0cc0758c344e1255f676f88cc581a02d09c3c2361030a9d8b87d3d3d0ccd36"
+    sha256 "318c392d355d1b903404c7788e028a736e859d5d351f40f1187499baa9557781"
   end
 
   depends_on :arch => :x86_64
