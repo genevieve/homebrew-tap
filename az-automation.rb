@@ -1,5 +1,5 @@
 class AzAutomation < Formula
-  desc "Command line utility for cleaning up orphaned IAAS resources."
+  desc "Command line utility for creating an Azure Service Principal."
   homepage "https://github.com/genevievelesperance/az-automation"
   version "v0.2.0"
 
