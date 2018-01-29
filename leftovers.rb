@@ -1,11 +1,11 @@
 class Leftovers < Formula
   desc "Command line utility for cleaning orphaned IAAS resources."
   homepage "https://github.com/genevievelesperance/leftovers-cli"
-  version "v0.1.0"
+  version "v0.2.0"
 
   if OS.mac?
     url "https://github.com/genevievelesperance/leftovers-cli/releases/download/#{version}/leftovers-cli-#{version}_osx"
-    sha256 "0ccf5fc7a6f6f4dcc98d37b3cdb1e4cf723f2d84ced53161b67d1731f5a9721e"
+    sha256 "7244c2d5e292e450d8f8a0cd83c54d8b2406070e9bd220e78960e45fe700df2d"
   end
 
   depends_on :arch => :x86_64
