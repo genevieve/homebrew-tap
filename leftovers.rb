@@ -1,10 +1,10 @@
 class Leftovers < Formula
   desc "Command line utility for cleaning orphaned IAAS resources."
-  homepage "https://github.com/genevievelesperance/leftovers"
+  homepage "https://github.com/genevieve/leftovers"
   version "v0.8.0"
 
   if OS.mac?
-    url "https://github.com/genevievelesperance/leftovers/releases/download/#{version}/leftovers-#{version}_osx"
+    url "https://github.com/genevieve/leftovers/releases/download/#{version}/leftovers-#{version}_osx"
     sha256 "85e8707b1bafa458ed029da64e95e5ae656f2cbe2a35e0c40713c873bd9f757d"
   end
 

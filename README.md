@@ -5,7 +5,7 @@
 Things you can install:
 
 ```
-brew tap genevievelesperance/tap
+brew tap genevieve/tap
 brew install az-automation
 brew install leftovers
 ```
